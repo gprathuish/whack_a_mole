@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Whack A Mole :: Prathuish Gera</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container-flued">
+    <hr>
+    <div class="row">
+      <div class="col-sm-5">
+        <h4>Whack A Mole :: Prathuish Gera</h4>
+      </div>
+      <div class="col-sm-2">
+        <h4>Score: <span id="score">0</span></h4>
+      </div>
+      <div class="col-sm-2">
+        <h4>Time Left: <span id="time-left">60</span></h4>
+      </div>
+      <div class="col-sm-3">
+        <form class="form-inline">
+          <label class="sr-only" for="grid-size">Grid Size</label>
+          <select name="" class="form-control mr-sm-2" id="grid-size">
+            <option value="2">2x2</option>
+            <option value="3" selected>3x3</option>
+            <option value="4">4x4</option>
+            <option value="5">5x5</option>
+            <option value="6">6x6</option>
+          </select>
+
+          <button type="button" id="start-game" class="btn btn-primary">START</button>
+        </form>
+      </div>
+    </div>
+    <hr>
+
+    <div class="grid">
+    </div>
+
+
+
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

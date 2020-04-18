@@ -1,0 +1,50 @@
+body {
+  
+}
+
+.grid{
+  display: flex;
+  flex-flow: row wrap;
+  width: 0px;
+  height: 0px;
+  border: solid black 1px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #eecda3;
+  background: -webkit-linear-gradient(to right,#92f8da, #1dba03);
+  background: linear-gradient(to right,#92f8da, #1dba03);
+}
+
+.square{
+  width: 100px;
+  height: 100px;
+  border: solid black 1px;
+}
+
+.hit1{
+  background-image: url("images/hit1.png");
+  background-size: cover;
+}
+
+.hit2{
+  background-image: url("images/hit2.gif");
+  background-size: cover;
+}
+
+.hit3{
+  background-image: url("images/hit3.gif");
+  background-size: cover;
+}
+
+.hit4{
+  background-image: url("images/hit4.gif");
+  background-size: cover;
+}
+.hit5{
+  background-image: url("images/hit5.gif");
+  background-size: cover;
+}
+.hit6{
+  background-image: url("images/hit6.gif");
+  background-size: cover;
+}
